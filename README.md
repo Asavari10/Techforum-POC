@@ -8,7 +8,7 @@ A dummy payment processing system for demonstrating AI-powered regression test g
 - Refund handling
 - Transaction tracking
 - RESTful API
-- SQLite database
+- MySql database
 - Comprehensive validation
 
 ## Quick Start
