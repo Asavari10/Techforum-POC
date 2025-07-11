@@ -14,6 +14,9 @@ if not exist "tests\generated" mkdir tests\generated
 if not exist "database" mkdir database
 if not exist "database\migrations" mkdir database\migrations
 if not exist "database\seeds" mkdir database\seeds
+if not exist "tests\api" mkdir tests\api
+if not exist "tests\e2e" mkdir tests\e2e
+
 
 REM Create __init__.py files
 echo # This file makes Python treat the directory as a package > src\__init__.py
@@ -28,6 +31,10 @@ echo # This file makes Python treat the directory as a package > tests\generated
 echo # This file makes Python treat the directory as a package > database\__init__.py
 echo # This file makes Python treat the directory as a package > database\migrations\__init__.py
 echo # This file makes Python treat the directory as a package > database\seeds\__init__.py
+echo # API Tests Package > tests\api\__init__.py
+echo # End-to-End Tests Package > tests\e2e\__init__.py
+
+
 
 echo.
 echo Created __init__.py files in:
